@@ -4,13 +4,18 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Luwombo Schüssel</title>
+   
+   <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
+
 <body>
   <!--header-->
   <header>
    <nav>
+      <!--website logo-->
       <h1>Traditional Recipes</h1>
+
+      <!--navigation links-->
           <ul> 
             <li><a href="#">Home</a></li> 
             <li><a href="#">Recipes</a></li>
@@ -19,9 +24,13 @@
             <li><a href="#">Contact</a></li> 
          </ul>       
 
-      <form>
-         <input type="search" placeholder="search recipes..." />
-      </form> 
+      <section>
+         <h2>Search Recipes</h2>
+
+         <!--search input for users-->
+
+         <input type="search" placeholder="search recipes..." >
+      </section> 
 
       </nav>
       </header> 
@@ -31,10 +40,16 @@
    <section>
       <article>
 
+         <!--recipe heading-->
+
          <header>
             <h2>Luwombo Schüssel</h2>
+
+            <!--subtitle describing the dish-->
          <p class="subtitle">Traditional Banana Leaf Stew</p>
          </header>
+
+         <!--quick recipe information badges, i used div because this is layout content -->
 
          <section>
             <div class="recipe-badges">
@@ -46,26 +61,39 @@
 
          </section>
 
-    
-         <section>
+         <!--action buttons for users-->
+
+         <div>
             <button>Save Recipe</button>
             <button>Print</button>
-         </section>
+         </div>
 
       </article>
 
-      <figure>
-         <img src="luwombo.jpg" alt="Beef Luwombo Schüssel" />
-         <figcaption>
+      <!--featured recipe image-->
+
+      <section>
+         <h2>Popular Dishes</h2>
+         <figure>
+
+            <!--recipe image-->
+            <img src="luwombo.jpg" alt="Beef Luwombo Schüssel" >
+
+            <!--description of image-->
+            <figcaption>
             Slow-cooked banana leaf wrapped stew
 
-         </figcaption>
-      </figure>
+            </figcaption>
+         </figure>
+      </section>
 </section>
 
 <section>
+   <!--sidebar for ingredients-->
    <aside>
       <h3>Ingredients</h3>
+
+      <!--ingredients list-->
       <ul>
           <li>1 kg beef</li>
           <li>2 onions</li>
@@ -81,8 +109,12 @@
 
    </aside>
 
+   <!--cooking instructions-->
+
    <article>
       <h3>Preparation</h3>
+
+      <!--ordered list because steps follow a sequence-->
         <ol>
           <li>Soften banana leaves over heat and lightly roast beef.</li>
           <li>Mix beef with garlic, salt, pepper and marinate 30 minutes.</li>
@@ -102,6 +134,8 @@
 
 <!--footer-->
 <footer>
+
+   <!--copyright information-->
    <p>&copy; 2026 Traditional Recipes. All rights reserved.</p>
 </footer>
 

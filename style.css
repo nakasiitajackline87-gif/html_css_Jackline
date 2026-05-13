@@ -1,5 +1,7 @@
 /* =========================
    Global Styles
+   i want all elements to start with consistent
+   spacing and sizing
 ========================= */
 * {
    margin: 0;
@@ -8,6 +10,7 @@
    font-family: 'Arial', sans-serif;
 }
 
+/*main page styling */
 body {
    background: linear-gradient(135deg, #fdf6ec, #f3e7d3);
    color: #333;
@@ -16,13 +19,16 @@ body {
 
 /* =========================
    Header
+   I used orange colors to create
+   a warm traditional food feeling
 ========================= */
 header {
-   background: linear-gradient(90deg, #e67e22, #d35400);
+   background: linear-gradient(90deg, #70a333, #c2de10);
    color: white;
    padding: 15px 0;
    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
 }
+/*navigation  bar layout */
 
 nav {
    max-width: 1100px;
@@ -34,16 +40,22 @@ nav {
    padding: 0 20px;
 }
 
+/*website title */
+
 nav h1 {
    font-size: 24px;
    color: white;
 }
+
+/*navigation links container */
 
 nav ul {
    list-style: none;
    display: flex;
    gap: 15px;
 }
+
+/* navigation links */
 
 nav ul li a {
    text-decoration: none;
@@ -56,6 +68,8 @@ nav ul li a:hover {
    color: #ffe0b2;
 }
 
+/*search bar styling */
+
 nav form input {
    padding: 7px 10px;
    border: none;
@@ -65,6 +79,7 @@ nav form input {
 
 /* =========================
    Main Layout
+   keeps content neatly centered
 ========================= */
 main {
    max-width: 1100px;
@@ -75,19 +90,24 @@ main {
 /* =========================
    Title Section
 ========================= */
+
+/*main recipe heading */
 article header h2 {
    font-size: 34px;
    color: #2c3e50;
 }
+/*subtitle under recipe title */
 
 .subtitle {
-   color: #e67e22;
+   color: #f1f4f1;
    font-weight: bold;
    margin-bottom: 15px;
 }
 
 /* =========================
    Badges
+   small labels showing time,
+   servings and difficulty
 ========================= */
 .recipe-badges {
    display: flex;
@@ -123,17 +143,18 @@ button:hover {
 }
 
 button:nth-child(1) {
-   background: #27ae60;
+   background: black;
    color: white;
 }
 
 button:nth-child(2) {
-   background: #8e44ad;
-   color: white;
+   background: white;
+   color: black;
 }
 
 /* =========================
    Image Section
+   figure acts like an image card
 ========================= */
 figure {
    margin-top: 20px;
@@ -152,11 +173,11 @@ figcaption {
    text-align: center;
    margin-top: 8px;
    font-size: 14px;
-   color: #555;
+   color: #c42121;
 }
 
 /* =========================
-   Ingredients & Preparation Cards
+  styling Ingredients & Preparation Cards
 ========================= */
 aside, article {
    background: linear-gradient(135deg, #fff7e6, #ffffff);
@@ -175,6 +196,9 @@ h3 {
 /* =========================
    Lists
 ========================= */
+
+/*orange bullet points */
+
 ul li::marker {
    color: #e67e22;
 }
@@ -189,6 +213,9 @@ li {
 
 /* =========================
    Footer
+   center footer text
+   dark gradient for contrast
+   shadow separates footer from content
 ========================= */
 footer {
    text-align: center;
