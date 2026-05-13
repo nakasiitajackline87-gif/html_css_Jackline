@@ -1,1 +1,4 @@
-My project about a recipe page using html/css. The recipe is about the Luwombo Schüssel a ugandan traditional dish.
+This project is a small recipe page built using HTML and CSS. This page represents a traditional dish from Uganda called Luwombo, I chose this dish because it is my favourite dish and also it is a traditional dish that represents hospitality and family traditions in Uganda. I styled it as a modern recipe card with navigation, recipe details, ingredients and preparation steps.
+I specifically chose this project so that i can practice semantic HTML structure and CSS styling and layouts.
+I used HTML elements like headers, nav, main, article, aside, section, figure, footer and figuration to improve readability, accessibility, structure, Code organiyation. 
+I used CSS gradients to create a warm atmosphere, flexbox layouts and badge layouts to align easily and simplify spacing, shadows and rounded corners to create a modern card-style interface.
